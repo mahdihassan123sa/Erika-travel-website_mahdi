@@ -1,0 +1,80 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+h1{ 
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(8, 49, 95, 0.485);
+    color: rgb(0, 0, 0);
+  }    
+
+.button-with-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf4f00;
+    color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    font-size: 16px;
+    filter: drop-shadow(10px 7px 10px rgb(0, 0, 0));
+   
+    }
+    
+ 
+  
+  .button-with-img img {
+    width: 300px;
+    height: 200px;
+  }
+  .button-with-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf4f00;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+   
+  }
+  
+  .button-with-img img {
+    width: 300px;
+    height: 200px;
+  }
+  button {
+    font-size: 16px;
+    padding: 1em 3.3em;
+    cursor: pointer;
+    transform: perspective(200px) rotateX(15deg);
+    color: rgb(255, 1, 1);
+    font-weight: 900;
+    box-shadow: rgba(63, 94, 251, 0) 0px 40px 29px 0px;
+    will-change: transform;
+    transition: all 0.3s;
+   
+  }
+  
+  button:hover {
+    transform: perspective(180px) rotateX(30deg) translateY(2px);
+  }
+  
+  button:active {
+    transform: perspective(170px) rotateX(36deg) translateY(5px);
+  }
+  

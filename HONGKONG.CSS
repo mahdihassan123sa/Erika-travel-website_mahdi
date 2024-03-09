@@ -1,0 +1,20 @@
+body{
+  background-image: url(hongkong\ back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1{
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  background-color: rgba(8, 49, 95, 0.485);
+}
+img{
+  border-radius: 10px;
+}
+video{
+  border-radius: 10px;
+}
